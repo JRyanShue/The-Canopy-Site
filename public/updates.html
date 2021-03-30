@@ -6,6 +6,8 @@
     <meta name="description" content="The Canopy Website">
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
 </head>
 <body>
     <div class="pimg1">
@@ -34,7 +36,16 @@
           </div>
 
           <div class="pagemiddletext">
-            Stay tuned for additional updates!
+            Subscribe to our newsletter for regular updates!
+            Enter your email address below:
+            <br>
+            <input type="textfield" id="userEmail" class="styleinput"/>
+            <button id="saveButton" class="stylebutton">
+                <div class="smallfont">
+                    Subscribe
+                </div>
+            </button>
+            <script src="app.js"></script>
         </div>
     </div>
         
