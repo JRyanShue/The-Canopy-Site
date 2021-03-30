@@ -276,3 +276,7 @@ body {
 input, select, .styleinput{
     color: #000;
 }
+
+.confirmTextStyle{
+    color: red;
+}
